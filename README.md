@@ -1,5 +1,4 @@
 ﻿# Nexus-Assessment-Studio
-# Nexus Assessment Studio
 
 A unified intelligence system for generating, evaluating, and analyzing assessments using AI.
 
