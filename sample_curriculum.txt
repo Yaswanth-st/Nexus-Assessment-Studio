@@ -1,0 +1,5 @@
+﻿Module 1: Python programming fundamentals with functions, OOP, and file handling.
+Module 2: SQL basics, joins, indexing, and relational schema design.
+Module 3: Data structures and algorithms with complexity analysis.
+Module 4: REST API design using FastAPI and authentication patterns.
+Module 5: Testing strategies including unit tests and integration tests.

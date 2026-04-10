@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assessment Engine</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+  <main class="shell">
+    <section class="hero">
+      <p class="kicker">Smart Generation</p>
+      <h1>Assessment Studio</h1>
+      <p class="sub">Prioritize topics by skill weights and generate up to 50 high-quality questions in one run.</p>
+    </section>
+
+    <section class="panel form-panel">
+      <h2>Create Assessment</h2>
+      <form id="assessment-form">
+        <div class="grid two">
+          <label>
+            <span>Input Type</span>
+            <select id="mode" name="type">
+              <option value="jd">Job Description</option>
+              <option value="curriculum">Curriculum</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Difficulty</span>
+            <select id="difficulty" name="difficulty">
+              <option value="easy">Easy</option>
+              <option value="medium" selected>Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="grid two">
+          <label>
+            <span>Number Of Questions (max 50)</span>
+            <input id="num_questions" name="num_questions" type="number" min="1" max="50" value="10" />
+          </label>
+
+          <fieldset class="types">
+            <legend>Question Types</legend>
+            <label><input type="checkbox" name="question_type" value="MCQ" checked /> MCQ</label>
+            <label><input type="checkbox" name="question_type" value="SAQ" checked /> SAQ</label>
+            <label><input type="checkbox" name="question_type" value="True/False" /> True/False</label>
+            <label><input type="checkbox" name="question_type" value="Coding" /> Coding</label>
+          </fieldset>
+        </div>
+
+        <div class="upload-row">
+          <label>
+            <span>Upload Document (.pdf, .docx, .txt, .png, .jpg)</span>
+            <input id="source-file" type="file" accept=".pdf,.docx,.txt,.png,.jpg,.jpeg,.bmp,.tif,.tiff,.doc" />
+          </label>
+          <div class="upload-actions">
+            <button id="extract-btn" type="button" class="secondary-btn">Extract Text Into Current Mode</button>
+            <button id="generate-doc-btn" type="button" class="secondary-btn alt">Generate Directly From Document</button>
+          </div>
+        </div>
+        <p class="upload-note">OCR is used automatically for scanned PDFs and images. For Word files, use .docx (legacy .doc not supported).</p>
+
+        <label id="jd-wrap">
+          <span>Job Description</span>
+          <textarea id="jd" name="jd" rows="8" placeholder="Paste the JD here..."></textarea>
+        </label>
+
+        <label id="skills-wrap" class="hidden">
+          <span>Curriculum Content (paste text or weighted skills)</span>
+          <textarea id="skills" rows="8" placeholder="Module 1: Python Basics&#10;Variables, loops, and functions&#10;&#10;Module 2: Data Structures&#10;Lists, dictionaries, and sets"></textarea>
+          <div class="curriculum-actions">
+            <button id="analyze-curriculum-btn" type="button" class="secondary-btn">Analyze Curriculum Sections</button>
+          </div>
+          <div id="curriculum-options" class="curriculum-options hidden"></div>
+        </label>
+
+        <button id="submit-btn" type="submit">Generate Assessment</button>
+      </form>
+    </section>
+
+    <section class="panel result-panel">
+      <div class="result-head">
+        <h2>Output</h2>
+        <span id="status-chip">Idle</span>
+      </div>
+
+      <div id="summary" class="summary hidden"></div>
+      <div id="error" class="error hidden"></div>
+      
+      <div id="question-controls" class="question-controls hidden">
+        <label>Sort by:</label>
+        <div class="sort-controls">
+          <select id="sort-select">
+            <option value="priority">Priority (Skills)</option>
+            <option value="difficulty-asc">Difficulty (Easy to Hard)</option>
+            <option value="difficulty-desc">Difficulty (Hard to Easy)</option>
+            <option value="original">Original Order</option>
+          </select>
+        </div>
+        <small style="color: var(--text-muted); font-size: 0.8rem;">💡 Drag questions to reorder manually</small>
+      </div>
+
+      <!-- Gamification Panel -->
+      <div id="gamification-panel" class="gamification-panel hidden" style="margin-bottom: 16px; padding: 16px; background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: var(--radius);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 12px;">
+          <div style="text-align: center;">
+            <div style="font-size: 24px; font-weight: 700; color: var(--text-primary);" id="xp-display">0</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">XP Earned</div>
+          </div>
+          <div style="text-align: center;">
+            <div style="font-size: 24px; font-weight: 700; color: var(--text-primary);" id="level-display">1</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Level</div>
+          </div>
+          <div style="text-align: center;">
+            <div style="font-size: 24px; font-weight: 700; color: #e8c788;" id="streak-display">0</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">🔥 Streak</div>
+          </div>
+          <div style="text-align: center;">
+            <div style="font-size: 24px; font-weight: 700; color: var(--text-primary);" id="accuracy-display">0%</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Accuracy</div>
+          </div>
+        </div>
+        <div id="achievements-badges" style="display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0;"></div>
+        <div id="behavioral-signals" style="margin-top: 12px;"></div>
+      </div>
+      
+      <div id="results" class="results"></div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

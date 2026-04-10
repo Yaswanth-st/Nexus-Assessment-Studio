@@ -1,0 +1,535 @@
+{
+  "0ee3d69f-17b8-494e-9994-9968fa72e500": {
+    "session_id": "0ee3d69f-17b8-494e-9994-9968fa72e500",
+    "created_at": "2026-04-10T09:38:02.871726",
+    "total_xp": 0,
+    "current_level": 1,
+    "total_questions": 0,
+    "correct_answers": 0,
+    "current_streak": 0,
+    "max_streak": 0,
+    "achievements": [],
+    "skill_stats": {},
+    "question_history": [],
+    "daily_xp": 0,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T09:38:02.871726",
+    "consecutive_correct_without_hints": 0,
+    "last_wrong_timestamp": null,
+    "struggling_skills": []
+  },
+  "e586cefd-9f11-4b01-b164-903c07a195eb": {
+    "session_id": "e586cefd-9f11-4b01-b164-903c07a195eb",
+    "created_at": "2026-04-10T10:00:33.047657",
+    "total_xp": 140,
+    "current_level": 1,
+    "total_questions": 1,
+    "correct_answers": 1,
+    "current_streak": 1,
+    "max_streak": 1,
+    "achievements": [
+      "first_correct"
+    ],
+    "skill_stats": {
+      "Test Skill": {
+        "attempts": 1,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 0
+      }
+    },
+    "question_history": [
+      {
+        "skill": "Test Skill",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 5,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T10:00:33.169566"
+      }
+    ],
+    "daily_xp": 140,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:00:33.169566",
+    "consecutive_correct_without_hints": 1,
+    "last_wrong_timestamp": null,
+    "struggling_skills": []
+  },
+  "e4928ae3-4051-462f-b93b-8a74ab7796af": {
+    "session_id": "e4928ae3-4051-462f-b93b-8a74ab7796af",
+    "created_at": "2026-04-10T10:04:19.394545",
+    "total_xp": 140,
+    "current_level": 1,
+    "total_questions": 1,
+    "correct_answers": 1,
+    "current_streak": 1,
+    "max_streak": 1,
+    "achievements": [
+      "first_correct"
+    ],
+    "skill_stats": {
+      "Test Skill": {
+        "attempts": 1,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 0
+      }
+    },
+    "question_history": [
+      {
+        "skill": "Test Skill",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 5,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T10:04:19.404044"
+      }
+    ],
+    "daily_xp": 140,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:04:19.404044",
+    "consecutive_correct_without_hints": 1,
+    "last_wrong_timestamp": null,
+    "struggling_skills": []
+  },
+  "0cd48a90-4564-4dcc-9d24-6f75cfaf20d6": {
+    "session_id": "0cd48a90-4564-4dcc-9d24-6f75cfaf20d6",
+    "created_at": "2026-04-10T10:06:18.924930",
+    "total_xp": 140,
+    "current_level": 1,
+    "total_questions": 2,
+    "correct_answers": 1,
+    "current_streak": 1,
+    "max_streak": 1,
+    "achievements": [],
+    "skill_stats": {
+      "Data Analysis": {
+        "attempts": 2,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 1
+      }
+    },
+    "question_history": [
+      {
+        "skill": "Data Analysis",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T10:07:01.545566"
+      },
+      {
+        "skill": "Data Analysis",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T10:07:11.803972"
+      }
+    ],
+    "daily_xp": 140,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:07:11.803972",
+    "consecutive_correct_without_hints": 1,
+    "last_wrong_timestamp": "2026-04-10T10:07:01.545566",
+    "struggling_skills": []
+  },
+  "57434d31-14de-43d0-8004-c91cff4ecf1a": {
+    "session_id": "57434d31-14de-43d0-8004-c91cff4ecf1a",
+    "created_at": "2026-04-10T10:32:52.523661",
+    "total_xp": 0,
+    "current_level": 1,
+    "total_questions": 0,
+    "correct_answers": 0,
+    "current_streak": 0,
+    "max_streak": 0,
+    "achievements": [],
+    "skill_stats": {},
+    "question_history": [],
+    "daily_xp": 0,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:32:52.523661",
+    "consecutive_correct_without_hints": 0,
+    "last_wrong_timestamp": null,
+    "struggling_skills": []
+  },
+  "d2842b94-1e02-42b7-ab0a-4d8878a6ce82": {
+    "session_id": "d2842b94-1e02-42b7-ab0a-4d8878a6ce82",
+    "created_at": "2026-04-10T10:44:42.215711",
+    "total_xp": 0,
+    "current_level": 1,
+    "total_questions": 0,
+    "correct_answers": 0,
+    "current_streak": 0,
+    "max_streak": 0,
+    "achievements": [],
+    "skill_stats": {},
+    "question_history": [],
+    "daily_xp": 0,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:44:42.215711",
+    "consecutive_correct_without_hints": 0,
+    "last_wrong_timestamp": null,
+    "struggling_skills": []
+  },
+  "3df85dc1-ecc5-4da4-a0d1-d011be053b69": {
+    "session_id": "3df85dc1-ecc5-4da4-a0d1-d011be053b69",
+    "created_at": "2026-04-10T10:46:07.511839",
+    "total_xp": 140,
+    "current_level": 1,
+    "total_questions": 3,
+    "correct_answers": 1,
+    "current_streak": 1,
+    "max_streak": 1,
+    "achievements": [],
+    "skill_stats": {
+      "Data Analysis": {
+        "attempts": 3,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 2
+      }
+    },
+    "question_history": [
+      {
+        "skill": "Data Analysis",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T10:46:14.081575"
+      },
+      {
+        "skill": "Data Analysis",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T10:46:20.926726"
+      },
+      {
+        "skill": "Data Analysis",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T10:46:27.006190"
+      }
+    ],
+    "daily_xp": 140,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:46:27.006190",
+    "consecutive_correct_without_hints": 1,
+    "last_wrong_timestamp": "2026-04-10T10:46:20.926726",
+    "struggling_skills": []
+  },
+  "4762bf90-756f-4875-afb7-160a6f020a5d": {
+    "session_id": "4762bf90-756f-4875-afb7-160a6f020a5d",
+    "created_at": "2026-04-10T10:52:33.831675",
+    "total_xp": 0,
+    "current_level": 1,
+    "total_questions": 0,
+    "correct_answers": 0,
+    "current_streak": 0,
+    "max_streak": 0,
+    "achievements": [],
+    "skill_stats": {},
+    "question_history": [],
+    "daily_xp": 0,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:52:33.831675",
+    "consecutive_correct_without_hints": 0,
+    "last_wrong_timestamp": null,
+    "struggling_skills": []
+  },
+  "9ee519fc-6ed8-4eec-a4aa-7a5efb64beee": {
+    "session_id": "9ee519fc-6ed8-4eec-a4aa-7a5efb64beee",
+    "created_at": "2026-04-10T10:58:19.667929",
+    "total_xp": 420,
+    "current_level": 1,
+    "total_questions": 6,
+    "correct_answers": 3,
+    "current_streak": 1,
+    "max_streak": 1,
+    "achievements": [
+      "first_correct"
+    ],
+    "skill_stats": {
+      "& Sons, 2020.": {
+        "attempts": 4,
+        "correct": 2,
+        "xp": 280,
+        "wrong_count": 2
+      },
+      "(Bubble, Adalo, Wix, AppGyver), Building functional prototypes without extensive": {
+        "attempts": 2,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 1
+      }
+    },
+    "question_history": [
+      {
+        "skill": "& Sons, 2020.",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T10:59:02.627941"
+      },
+      {
+        "skill": "& Sons, 2020.",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T10:59:11.431975"
+      },
+      {
+        "skill": "& Sons, 2020.",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T10:59:14.415694"
+      },
+      {
+        "skill": "& Sons, 2020.",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T10:59:17.856044"
+      },
+      {
+        "skill": "(Bubble, Adalo, Wix, AppGyver), Building functional prototypes without extensive",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T10:59:23.424793"
+      },
+      {
+        "skill": "(Bubble, Adalo, Wix, AppGyver), Building functional prototypes without extensive",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T10:59:25.896711"
+      }
+    ],
+    "daily_xp": 420,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T10:59:25.896711",
+    "consecutive_correct_without_hints": 1,
+    "last_wrong_timestamp": "2026-04-10T10:59:23.424793",
+    "struggling_skills": []
+  },
+  "90114089-7c12-4548-97e2-d5197408ee7e": {
+    "session_id": "90114089-7c12-4548-97e2-d5197408ee7e",
+    "created_at": "2026-04-10T11:01:04.234153",
+    "total_xp": 420,
+    "current_level": 1,
+    "total_questions": 12,
+    "correct_answers": 3,
+    "current_streak": 0,
+    "max_streak": 2,
+    "achievements": [],
+    "skill_stats": {
+      "Data Analysis": {
+        "attempts": 3,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 2
+      },
+      "Data Visualization": {
+        "attempts": 1,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 0
+      },
+      "ETL Tools": {
+        "attempts": 2,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 1
+      },
+      "Large Language Models (LLMs) / Generative AI": {
+        "attempts": 6,
+        "correct": 0,
+        "xp": 0,
+        "wrong_count": 6
+      }
+    },
+    "question_history": [
+      {
+        "skill": "Data Analysis",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:16.471948"
+      },
+      {
+        "skill": "Data Analysis",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:20.543886"
+      },
+      {
+        "skill": "Data Analysis",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T11:01:22.887163"
+      },
+      {
+        "skill": "Data Visualization",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T11:01:27.327912"
+      },
+      {
+        "skill": "ETL Tools",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:30.320651"
+      },
+      {
+        "skill": "ETL Tools",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T11:01:32.943080"
+      },
+      {
+        "skill": "Large Language Models (LLMs) / Generative AI",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:35.839713"
+      },
+      {
+        "skill": "Large Language Models (LLMs) / Generative AI",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:37.775843"
+      },
+      {
+        "skill": "Large Language Models (LLMs) / Generative AI",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:40.199136"
+      },
+      {
+        "skill": "Large Language Models (LLMs) / Generative AI",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:42.262880"
+      },
+      {
+        "skill": "Large Language Models (LLMs) / Generative AI",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:45.871263"
+      },
+      {
+        "skill": "Large Language Models (LLMs) / Generative AI",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:01:47.759696"
+      }
+    ],
+    "daily_xp": 420,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T11:01:47.759696",
+    "consecutive_correct_without_hints": 0,
+    "last_wrong_timestamp": "2026-04-10T11:01:47.759696",
+    "struggling_skills": []
+  },
+  "e7bc45bb-3402-4d04-b09f-344d1933c969": {
+    "session_id": "e7bc45bb-3402-4d04-b09f-344d1933c969",
+    "created_at": "2026-04-10T11:05:00.463967",
+    "total_xp": 280,
+    "current_level": 1,
+    "total_questions": 4,
+    "correct_answers": 2,
+    "current_streak": 2,
+    "max_streak": 2,
+    "achievements": [],
+    "skill_stats": {
+      "52": {
+        "attempts": 3,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 2
+      },
+      "Signature of BOS chairman, CSE": {
+        "attempts": 1,
+        "correct": 1,
+        "xp": 140,
+        "wrong_count": 0
+      }
+    },
+    "question_history": [
+      {
+        "skill": "52",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:07:27.583793"
+      },
+      {
+        "skill": "52",
+        "is_correct": false,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 0,
+        "timestamp": "2026-04-10T11:07:31.079365"
+      },
+      {
+        "skill": "52",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T11:07:33.872001"
+      },
+      {
+        "skill": "Signature of BOS chairman, CSE",
+        "is_correct": true,
+        "hints_used": 0,
+        "time_taken": 0,
+        "xp_earned": 140,
+        "timestamp": "2026-04-10T11:07:51.135727"
+      }
+    ],
+    "daily_xp": 280,
+    "daily_challenge_completed": false,
+    "last_activity": "2026-04-10T11:07:51.135727",
+    "consecutive_correct_without_hints": 2,
+    "last_wrong_timestamp": "2026-04-10T11:07:31.079365",
+    "struggling_skills": []
+  }
+}

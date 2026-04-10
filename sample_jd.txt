@@ -1,0 +1,2 @@
+﻿Job Title: Python Backend Developer
+We are looking for a Python Backend Developer with FastAPI experience, strong SQL skills, and familiarity with REST API design. Responsibilities include building scalable services, writing tests, and collaborating with product teams.
